@@ -1,0 +1,17 @@
+node_modules/
+dist/
+logs/
+*.log
+.env
+.DS_Store
+uploads/
+output/
+*.pdf
+*.xlsx
+.vscode/
+.idea/
+
+
+
+
+

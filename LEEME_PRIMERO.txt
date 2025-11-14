@@ -1,0 +1,82 @@
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║       🏥 SISTEMA MÉDICO MARBELIZE S.A. - GUÍA RÁPIDA            ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+
+📊 NOVEDAD: ¡AHORA PUEDES USAR EXCEL COMO BASE DE DATOS!
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+¿NO QUIERES INSTALAR POSTGRESQL? ¡Perfecto!
+
+🚀 INICIO MÁS FÁCIL (MODO EXCEL - RECOMENDADO):
+
+   1. Haz doble clic en: INICIAR_EXCEL.bat
+   2. Espera 30 segundos
+   3. ¡Listo! Se abrirá en tu navegador
+
+   ✅ Usuario: admin
+   ✅ Contraseña: admin123
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📁 ¿DÓNDE SE GUARDAN LOS DATOS?
+
+   Los datos se guardan en archivos Excel en:
+   📂 backend\data\
+
+   Archivos que se crean:
+   - usuarios.xlsx (usuarios del sistema)
+   - pacientes.xlsx (pacientes/empleados)
+   - cie10.xlsx (códigos de diagnóstico)
+   - registros-medicos.xlsx (consultas médicas)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 VENTAJAS DEL MODO EXCEL:
+
+   ✅ No necesitas instalar PostgreSQL
+   ✅ Fácil de usar - son archivos Excel normales
+   ✅ Puedes editar los datos con Excel/LibreOffice
+   ✅ Backup simple: solo copia la carpeta "data"
+   ✅ Ideal para equipos pequeños y demos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🗄️ ¿PREFIERES USAR POSTGRESQL? (Opcional)
+
+   Si necesitas una base de datos más robusta:
+
+   1. Haz doble clic en: CONFIGURAR_DB.bat
+   2. Haz doble clic en: INICIAR_TODO.bat
+
+   Nota: Necesitas tener PostgreSQL instalado
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📖 DOCUMENTACIÓN:
+
+   - README_EXCEL.md  →  Guía completa del modo Excel
+   - README.md        →  Guía general del sistema
+   - SETUP_COMPLETO.md →  Documentación técnica
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🆘 ¿PROBLEMAS?
+
+   Error: "Cannot find module"
+   → cd backend && npm install && cd ../frontend && npm install
+
+   No compila o hay errores
+   → Cierra todas las ventanas y vuelve a ejecutar INICIAR_EXCEL.bat
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+¡Disfruta del sistema! 🎉
+
+Sistema desarrollado para Marbelize S.A. © 2025
+
+
+
+
+

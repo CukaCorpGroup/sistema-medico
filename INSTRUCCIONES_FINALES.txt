@@ -1,0 +1,137 @@
+╔══════════════════════════════════════════════════════════════════════════╗
+║                                                                          ║
+║              🏥 SISTEMA MÉDICO MARBELIZE - INSTRUCCIONES               ║
+║                          SOLUCIÓN DEFINITIVA                            ║
+║                                                                          ║
+╚══════════════════════════════════════════════════════════════════════════╝
+
+📌 PROBLEMA RESUELTO:
+   El problema era que el backend tenía datos en caché y el archivo de 
+   usuarios no tenía el nombre de hoja correcto ('Datos' vs 'Users').
+
+✅ SOLUCIÓN IMPLEMENTADA:
+   1. Corregido el script de creación de usuarios
+   2. El archivo ahora usa la hoja 'Datos' correctamente
+   3. El backend se reinicia automáticamente
+   4. Credenciales verificadas y funcionando
+
+═══════════════════════════════════════════════════════════════════════════
+
+🚀 PARA INICIAR EL SISTEMA (EJECUTA ESTE SCRIPT):
+
+   .\SOLUCION_DEFINITIVA.bat
+
+   Este script hace TODO automáticamente:
+   - Detiene procesos anteriores
+   - Recrea usuarios con contraseñas correctas
+   - Inicia backend y frontend
+   - Abre el navegador
+
+═══════════════════════════════════════════════════════════════════════════
+
+🔐 CREDENCIALES DE ACCESO:
+
+   ┌─────────────┬──────────────┬──────────────────┐
+   │ Usuario     │ Contraseña   │ Rol              │
+   ├─────────────┼──────────────┼──────────────────┤
+   │ admin       │ admin123     │ Administrador    │
+   │ doctor1     │ doctor123    │ Doctor           │
+   │ lector1     │ lector123    │ Lector           │
+   └─────────────┴──────────────┴──────────────────┘
+
+═══════════════════════════════════════════════════════════════════════════
+
+🌐 ACCESOS:
+
+   Frontend: http://localhost:4200
+   Backend:  http://localhost:3000
+   
+═══════════════════════════════════════════════════════════════════════════
+
+💾 DATOS (Almacenamiento en Excel):
+
+   📁 backend/data/
+      ├── usuarios.xlsx      (Usuarios del sistema)
+      ├── cie10.xlsx          (Catálogo CIE-10)
+      ├── patients.xlsx       (Pacientes)
+      └── medical-records.xlsx (Registros médicos)
+
+═══════════════════════════════════════════════════════════════════════════
+
+📋 MÓDULOS DISPONIBLES:
+
+   1. 📝 Registro Médico
+      - Crear historias clínicas
+      - Buscar pacientes
+      - Ver historial médico
+
+   2. ⚠️  Incidentes/Accidentes
+      - Registrar eventos laborales
+      - Clasificación de incidentes
+      - Reportes PDF
+
+   3. 💉 Antidopaje
+      - Control de pruebas
+      - Seguimiento de resultados
+      - Exportar a Excel
+
+   4. 📄 Certificados Médicos
+      - Generar certificados PDF
+      - Incapacidades
+      - Reposo médico
+
+═══════════════════════════════════════════════════════════════════════════
+
+🔧 SI ALGO NO FUNCIONA:
+
+   1. Verifica que ambas ventanas de comandos estén abiertas
+   2. Presiona F5 en el navegador para recargar
+   3. Si el botón no responde, ejecuta: .\SOLUCION_DEFINITIVA.bat
+   4. Si persiste, verifica la consola del navegador (F12)
+
+═══════════════════════════════════════════════════════════════════════════
+
+✅ VERIFICACIÓN FINAL:
+
+   El sistema está funcionando si:
+   - ✓ Ves 2 ventanas de comandos abiertas (Backend y Frontend)
+   - ✓ El navegador se abrió en http://localhost:4200
+   - ✓ Ves el formulario de login
+   - ✓ Al escribir "admin" y "admin123" e INGRESAR, te redirige al dashboard
+
+═══════════════════════════════════════════════════════════════════════════
+
+💡 NOTAS IMPORTANTES:
+
+   - NO cierres las ventanas de comandos mientras uses el sistema
+   - Los datos se guardan automáticamente en archivos Excel
+   - Puedes abrir los archivos Excel para ver/editar datos
+   - El sistema funciona SIN necesidad de PostgreSQL
+
+═══════════════════════════════════════════════════════════════════════════
+
+📞 ARCHIVOS DE AYUDA:
+
+   SOLUCION_DEFINITIVA.bat  - Script principal para iniciar todo
+   DIAGNOSTICO_COMPLETO.bat - Verificar estado del sistema
+   DETENER_TODO.bat         - Detener todos los procesos
+
+═══════════════════════════════════════════════════════════════════════════
+
+🎉 ¡SISTEMA COMPLETAMENTE FUNCIONAL!
+
+   El problema de los botones que no funcionaban estaba relacionado con:
+   1. El archivo de usuarios tenía la hoja con nombre incorrecto
+   2. El backend no se reiniciaba después de cambiar el archivo
+   3. AHORA ESTÁ TODO CORREGIDO Y FUNCIONANDO ✅
+
+═══════════════════════════════════════════════════════════════════════════
+
+Fecha de solución: 29/10/2025
+Versión: 1.0 Final
+Estado: ✅ FUNCIONANDO
+
+
+
+
+
